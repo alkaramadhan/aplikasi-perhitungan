@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rumus</string>
+    <string name="KelilingPersegi">Keliling Persegi</string>
+    <string name="TeganganListrik">Tegangan Listrik</string>
+    <string name="sisi">Sisi</string>
+    <string name="hitung">hitung</string>
+    <string name="hasil">hasil</string>
+    <string name="ArusListrik">Arus Listrik</string>
+    <string name="lebar">Tahanan</string>
+    <string name="Tahanan">Tahanan</string>
+</resources>
