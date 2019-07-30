@@ -1,5 +1,7 @@
 package com.example.windows.rumus;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -53,6 +55,14 @@ private TextView tHasil;
             if (!isEmptyFields && !isInvalidDouble) {
                 double volume = sisi * 4;
                 tHasil.setText(String.valueOf(volume));
+
+                Intent data = new Intent();
+                EditText txtnama = findViewById(R.id.nama);
+
+                data.setData(Uri.parse(String.valueOf(volume)));
+                setResult(RESULT_OK, data);
+
+                finish();
             }
         }
     }

@@ -31,5 +31,12 @@
         android:text="@string/TeganganListrik"
         android:id="@+id/pindah2"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/view1"
+        android:text="View"/>
+
 
 </LinearLayout>
